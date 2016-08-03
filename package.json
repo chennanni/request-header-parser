@@ -1,0 +1,17 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max <maxstackpush@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "accept-language": "^2.0.17",
+    "express": "^4.14.0",
+    "os": "^0.1.1",
+    "ua-parser": "^0.3.5"
+  }
+}
