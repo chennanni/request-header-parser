@@ -3,10 +3,17 @@ var os = require('os');
 var acceptLanguage = require('accept-language');
 var uaparser = require('ua-parser');
 var app = express();
+// var router = express.Router();
+
+// setup view engine
+app.set('view engine', 'jade');
+
+// // setup router
+// app.use('/', router);
 
 // show the index page
 app.get('/', function (req, res) {
-  res.send("Request Header Parser Microservice: [User Story] I can get the IP address, language and operating system for my browser.");
+  res.render('index', {title: 'Request Header Parser'});
 });
 
 // show the api page
