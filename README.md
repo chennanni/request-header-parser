@@ -5,7 +5,7 @@ The app can
 - get the IP address, language and operating system for the browser
 
 ## Usage
-Go to the api [website](https://todo.herokuapp.com) , add input parameter `/whoami` to the end of the url.
+Go to the api [website](https://max-request-header-parser.herokuapp.com) , add input parameter `/whoami` to the end of the url.
 
 ## Run In Local
 Also, you can download the project and run in your local with
