@@ -7,6 +7,11 @@ The app can
 ## Usage
 Go to the api [website](https://max-request-header-parser.herokuapp.com) , add input parameter `/whoami` to the end of the url.
 
+Sample Output:
+~~~
+{"ip":"999.99.99.99","language":"en-US","software":"Windows"}
+~~~
+
 ## Run In Local
 Also, you can download the project and run in your local with
 `npm start` or `node server.js`
